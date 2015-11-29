@@ -1,0 +1,2346 @@
+@media only screen  and (min-width: 320px) and (max-width: 668px) {
+
+img.cornerlogo{
+position:fixed;top:2px;
+left:15px;z-index:10;
+height:60px;   
+
+}
+    
+  
+    
+
+div.themeimg h1{
+display:none !important;
+}
+    
+    
+h2.basic{
+font-size:18pt;
+letter-spacing:4px;
+color:white !important;
+text-align:center;
+text-shadow:none;
+padding:0 auto;
+margin:0 auto;
+padding-top:150px;
+position:relative;
+z-index:0;
+ display:inline;
+    
+    
+}
+
+    
+div.fixtext{
+position:fixed;
+width:80%;
+z-index:;    
+top:155px;  
+margin-left:10%;    
+margin-right:10%;    
+}
+    
+   
+    
+#header nav > ul > li > a.menuToggle {
+margin-right:-10px;
+    
+}
+    
+    
+    
+/*                    bghovs             */
+    
+    
+
+#bghov-latenight {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/latenight.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-latenight {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-latenight:hover #overlay-latenight {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov healthy ------------- */
+
+#bghov-healthy {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/healthy.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-healthy{
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-healthy:hover #overlay-healthy {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+
+/*--- bg hov -cultural ------------- */
+
+#bghov-cultural {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/cultural.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-cultural{
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-cultural:hover #overlay-cultural {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+
+/*--- bg hov -sweets ------------- */
+
+#bghov-sweets {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/sweets.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-sweets{
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-sweets:hover #overlay-sweets {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+/*--- bg hov -wprep ------------- */
+
+#bghov-wprep {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/w-prep.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-wprep {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-wprep:hover #overlay-wprep {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+
+/*--- bg hov -fruit-veggie ------------- */
+
+#bghov-fruit-veggie {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/veggie.2jpg.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+      margin-top:-8px;
+}
+
+#overlay-fruit-veggie {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-fruit-veggie:hover #overlay-fruit-veggie {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov -noodles ------------- */
+
+#bghov-noodles {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/noodlediddly-retro.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-noodles {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-noodles:hover #overlay-noodles {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov -relaxing ------------- */
+
+#bghov-relaxing {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/relaxing-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+    margin-right:-5px;
+    margin-top:-8px;
+    
+}
+
+#overlay-relaxing {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-relaxing:hover #overlay-relaxing {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov -burgers ------------- */
+
+#bghov-burgers {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/burger-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+      margin-top:-8px;
+}
+
+#overlay-burgers {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-burgers:hover #overlay-burgers {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov -cookies  ------------- */
+
+#bghov-cookies {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/cookies2-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-cookies {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-cookies:hover #overlay-cookies {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+#plus {
+    font-weight: 100;
+    color: rgba(255, 255, 255, .85);
+    font-size: 28pt;letter-spacing:5px;
+    text-transform:capitalize;
+    text-shadow: 2px 2px black;
+}
+
+
+/*--- bg hov -salads ------------- */
+
+#bghov-salads {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/salad.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+    margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-salads {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-salads:hover #overlay-salads {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov -breakfast ------------- */
+
+#bghov-breakfast {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/breakfast.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-breakfast {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-breakfast:hover #overlay-breakfast {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov -sandwiches ------------- */
+
+#bghov-sandwiches {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/sandwich.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-sandwiches {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-sandwiches:hover #overlay-sandwiches {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov asian ------------- */
+
+#bghov-asian {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/asian-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-asian {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-asian:hover #overlay-asian {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov seafood ------------- */
+
+#bghov-seafood {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/seafood2.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-seafood {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-seafood:hover #overlay-seafood {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov holiday treats ------------- */
+
+#bghov-holiday-treats {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/holiday-treats.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-holiday-treats {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-holiday-treats:hover #overlay-holiday-treats {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov pizza------------- */
+
+#bghov-pizza {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/pizza.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-pizza {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-pizza:hover #overlay-pizza {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov mediterranean------------- */
+
+#bghov-mediterranean {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/mediterranean.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-mediterranean {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease; 
+}
+
+#bghov-mediterranean:hover #overlay-mediterranean {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov drinks------------- */
+
+#bghov-drinks {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/drinks.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-drinks {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-drinks:hover #overlay-drinks {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov cakes------------- */
+
+#bghov-cakes {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/cake.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-cakes {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-cakes:hover #overlay-cakes {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov party------------- */
+
+#bghov-party {
+   width:100%;
+    height: 320px;
+    background: url(images/foods/party.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-party {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-party:hover #overlay-party {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+#plus {
+    font-weight: 100;
+    color: rgba(255, 255, 255, .85);
+    font-size: 28pt;letter-spacing:5px;
+    text-transform:capitalize;
+    text-shadow: 2px 2px black;
+}
+    
+
+    
+    
+    
+  div.main2{
+      padding-top:50px;
+      background-color:#eaeaea;
+      z-index:10;
+  }
+    
+    
+    
+div.footer2{
+position:relative;
+height:100px;
+color:black;
+background:url(images/site/colorbg-blue.jpg) ;
+background-size:245px;    
+background-color:black;
+padding-top:70px;
+padding-bottom:200px;
+font-weight:bold;
+}
+
+div.footer2 p{
+padding:4px 10px;
+background-color:white;
+    border:2px solid #333;
+    width:auto;
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  }
+
+
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+
+
+#bghov-latenight {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/latenight.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-latenight {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-latenight:hover #overlay-latenight {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov healthy ------------- */
+
+#bghov-healthy {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/healthy.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-healthy{
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-healthy:hover #overlay-healthy {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+
+/*--- bg hov -cultural ------------- */
+
+#bghov-cultural {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/cultural.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-cultural{
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-cultural:hover #overlay-cultural {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+
+/*--- bg hov -sweets ------------- */
+
+#bghov-sweets {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/sweets.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-sweets{
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-sweets:hover #overlay-sweets {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+/*--- bg hov -wprep ------------- */
+
+#bghov-wprep {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/w-prep.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-wprep {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-wprep:hover #overlay-wprep {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+
+/*--- bg hov -fruit-veggie ------------- */
+
+#bghov-fruit-veggie {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/veggie.2jpg.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+      margin-top:-8px;
+}
+
+#overlay-fruit-veggie {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-fruit-veggie:hover #overlay-fruit-veggie {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov -noodles ------------- */
+
+#bghov-noodles {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/noodlediddly-retro.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-noodles {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-noodles:hover #overlay-noodles {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov -relaxing ------------- */
+
+#bghov-relaxing {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/relaxing-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+    margin-right:-5px;
+    margin-top:-8px;
+    
+}
+
+#overlay-relaxing {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-relaxing:hover #overlay-relaxing {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov -burgers ------------- */
+
+#bghov-burgers {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/burger-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+      margin-top:-8px;
+}
+
+#overlay-burgers {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-burgers:hover #overlay-burgers {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov -cookies  ------------- */
+
+#bghov-cookies {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/cookies2-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-cookies {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-cookies:hover #overlay-cookies {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+#plus {
+    font-weight: 100;
+    color: rgba(255, 255, 255, .85);
+    font-size: 28pt;letter-spacing:5px;
+    text-transform:capitalize;
+    text-shadow: 2px 2px black;
+}
+
+
+/*--- bg hov -salads ------------- */
+
+#bghov-salads {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/salad.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+    margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-salads {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-salads:hover #overlay-salads {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov -breakfast ------------- */
+
+#bghov-breakfast {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/breakfast.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-breakfast {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-breakfast:hover #overlay-breakfast {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov -sandwiches ------------- */
+
+#bghov-sandwiches {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/sandwich.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-sandwiches {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-sandwiches:hover #overlay-sandwiches {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov asian ------------- */
+
+#bghov-asian {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/asian-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-asian {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-asian:hover #overlay-asian {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov seafood ------------- */
+
+#bghov-seafood {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/seafood2.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-seafood {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-seafood:hover #overlay-seafood {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov holiday treats ------------- */
+
+#bghov-holiday-treats {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/holiday-treats.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-holiday-treats {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-holiday-treats:hover #overlay-holiday-treats {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov pizza------------- */
+
+#bghov-pizza {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/pizza.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-pizza {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-pizza:hover #overlay-pizza {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov mediterranean------------- */
+
+#bghov-mediterranean {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/mediterranean.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-mediterranean {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease; 
+}
+
+#bghov-mediterranean:hover #overlay-mediterranean {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov drinks------------- */
+
+#bghov-drinks {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/drinks.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-drinks {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-drinks:hover #overlay-drinks {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov cakes------------- */
+
+#bghov-cakes {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/cake.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-cakes {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-cakes:hover #overlay-cakes {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov party------------- */
+
+#bghov-party {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/party.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-party {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-party:hover #overlay-party {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+#plus {
+    font-weight: 100;
+    color: rgba(255, 255, 255, .85);
+    font-size: 28pt;letter-spacing:5px;
+    text-transform:capitalize;
+    text-shadow: 2px 2px black;
+}
+          
+      
+}
+
+
+
+
+
+
+
+
+
+@media only screen 
+ 
+  and (min-width: 768px) 
+  and (max-width: 1024px)  {
+
+
+#bghov-latenight {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/latenight.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-latenight {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-latenight:hover #overlay-latenight {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov healthy ------------- */
+
+#bghov-healthy {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/healthy.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-healthy{
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-healthy:hover #overlay-healthy {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+
+/*--- bg hov -cultural ------------- */
+
+#bghov-cultural {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/cultural.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-cultural{
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-cultural:hover #overlay-cultural {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+
+/*--- bg hov -sweets ------------- */
+
+#bghov-sweets {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/sweets.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-sweets{
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-sweets:hover #overlay-sweets {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+/*--- bg hov -wprep ------------- */
+
+#bghov-wprep {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/w-prep.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-wprep {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-wprep:hover #overlay-wprep {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+
+/*--- bg hov -fruit-veggie ------------- */
+
+#bghov-fruit-veggie {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/veggie.2jpg.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+      margin-top:-8px;
+}
+
+#overlay-fruit-veggie {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-fruit-veggie:hover #overlay-fruit-veggie {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov -noodles ------------- */
+
+#bghov-noodles {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/noodlediddly-retro.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-noodles {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-noodles:hover #overlay-noodles {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov -relaxing ------------- */
+
+#bghov-relaxing {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/relaxing-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+    margin-right:-5px;
+    margin-top:-8px;
+    
+}
+
+#overlay-relaxing {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-relaxing:hover #overlay-relaxing {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov -burgers ------------- */
+
+#bghov-burgers {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/burger-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+      margin-top:-8px;
+}
+
+#overlay-burgers {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-burgers:hover #overlay-burgers {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov -cookies  ------------- */
+
+#bghov-cookies {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/cookies2-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-cookies {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-cookies:hover #overlay-cookies {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+#plus {
+    font-weight: 100;
+    color: rgba(255, 255, 255, .85);
+    font-size: 28pt;letter-spacing:5px;
+    text-transform:capitalize;
+    text-shadow: 2px 2px black;
+}
+
+
+/*--- bg hov -salads ------------- */
+
+#bghov-salads {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/salad.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+    margin-right:-5px;
+    margin-top:-8px;
+}
+
+#overlay-salads {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-salads:hover #overlay-salads {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov -breakfast ------------- */
+
+#bghov-breakfast {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/breakfast.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-breakfast {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-breakfast:hover #overlay-breakfast {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov -sandwiches ------------- */
+
+#bghov-sandwiches {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/sandwich.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-sandwiches {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-sandwiches:hover #overlay-sandwiches {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov asian ------------- */
+
+#bghov-asian {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/asian-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-asian {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-asian:hover #overlay-asian {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov seafood ------------- */
+
+#bghov-seafood {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/seafood2.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-seafood {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-seafood:hover #overlay-seafood {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov holiday treats ------------- */
+
+#bghov-holiday-treats {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/holiday-treats.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-holiday-treats {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-holiday-treats:hover #overlay-holiday-treats {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov pizza------------- */
+
+#bghov-pizza {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/pizza.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-pizza {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-pizza:hover #overlay-pizza {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov mediterranean------------- */
+
+#bghov-mediterranean {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/mediterranean.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-mediterranean {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease; 
+}
+
+#bghov-mediterranean:hover #overlay-mediterranean {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov drinks------------- */
+
+#bghov-drinks {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/drinks.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-drinks {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-drinks:hover #overlay-drinks {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov cakes------------- */
+
+#bghov-cakes {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/cake.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-cakes {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-cakes:hover #overlay-cakes {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov party------------- */
+
+#bghov-party {
+   width:50%;
+    height: 320px;
+    background: url(images/foods/party.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-party {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-party:hover #overlay-party {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+#plus {
+    font-weight: 100;
+    color: rgba(255, 255, 255, .85);
+    font-size: 28pt;letter-spacing:5px;
+    text-transform:capitalize;
+    text-shadow: 2px 2px black;
+}
+          
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

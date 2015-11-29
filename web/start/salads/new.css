@@ -1,0 +1,225 @@
+body{
+padding:0 auto;
+margin:0 auto;
+width:100%;height:auto;
+font-family: 'Roboto Condensed', sans-serif;
+background-color:#eaeaea;
+overflow-x:hidden !important;
+color:#2D3F50;
+position:relative;
+}
+
+
+
+#header{
+    background:url(images/site/black-logo.png) no-repeat bottom center,         
+    url(images/site/foodbg.png)  !important;
+    background-size:170px, 196px !important;
+     border-bottom:2px solid white;
+    background:transparent !important; /* remove this for fixed menu */ 
+   
+    border-bottom:none;
+}
+
+#menu {
+background:url(images/site/colorbg2.png);    
+}
+
+div.fixtext{
+position:fixed;
+width:100%;
+z-index:;    
+top:55px;    
+}
+
+h2.basic{
+display:none;
+}
+
+div.main{
+position:relative;
+padding-top:23px;   
+height:auto; 
+padding-bottom:70px;
+
+background-color:#fff;
+}
+
+div.main2{
+position:relative;
+padding:0 auto;
+height:auto; 
+background-color:#eaeaea;
+z-index:99;
+padding-top:40px;
+padding-bottom:100px;
+}
+
+div.footer2{
+position:relative;
+height:100px;
+color:black;
+background:url(images/site/colorbg2.png) ;
+background:url(images/site/foodbg4.png) ;
+background:url(images/site/colorbg-blue.jpg) ;
+background-size:245px;    
+background-color:black;
+padding-top:70px;
+padding-bottom:170px;
+font-weight:bold;
+}
+
+div.footer2 p{
+padding:4px 10px;
+background-color:white;display:inline-block;
+    border:2px solid #333;
+
+}
+
+div.footer2 a{
+    color:white !important;font-weight:bold;
+    background-color:#ff406d;padding:4px 10px;margin-bottom:20px;display:inline-block;
+   border-radius:5px;
+    border:2px solid transparent;
+transition:all .3s ease;
+-webkit-transition:all .3s ease;
+-moz-transition:all .3s ease;
+-o-transition:all .3s ease;
+}
+
+div.footer2 a:hover{
+text-decoration:none;
+color:#ff406d !important;
+background-color:#ffffff;
+
+transition:all .3s ease;
+-webkit-transition:all .3s ease;
+-moz-transition:all .3s ease;
+-o-transition:all .3s ease;
+    
+}
+
+a.random{
+color:#00a569;
+text-decoration:none;
+}
+
+a.random:hover{
+    text-decoration:underline;
+}
+
+img.cornerlogo{
+position:fixed;top:2px;
+left:15px;z-index:0;
+}
+
+div.themeimg{
+width:100%;
+padding:0 auto;
+margin:0 auto;
+
+background:   url(images/large/overlay.png) , 
+    url(images/foods/salad.jpg) no-repeat fixed;
+    background-size:100% 400px !important;    
+background-position:fixed;
+text-align:center;
+    
+/*background-size:100% 400px;
+background-repeat:no-repeat;  */
+margin-top:-3em; 
+height:400px;
+}
+
+div.themeimg h1{
+font-size:36pt;
+letter-spacing:4px;
+color:white;
+text-align:center;
+text-shadow:2px 2px #222;
+padding:0 auto;
+margin:0 auto;
+padding-top:150px;
+position:relative;
+    z-index:0;
+}
+
+div.spacerx{
+margin-left:0 auto;    
+margin-right:0 auto;    
+}
+
+a.cats{
+color:#165d26;
+text-decoration:none;   
+}
+
+a.cats:hover{
+text-decoration:underline;    
+    
+}
+
+
+a.hearl{
+border-radius:5px;
+display:inline-block;
+width:200px;
+text-align:center;
+background-color:#165d26;
+text-decoration:none;
+color:white;
+padding-top:5px;
+padding-bottom:5px;
+cursor:pointer;
+transition: all .2s ease;    
+-webkit-transition: all .2s ease;    
+-moz-transition: all .2s ease;    
+-o-transition: all .2s ease;    
+        
+}
+
+
+a.hearl:hover{
+background-color:#2f6a3c;
+transition: all .2s ease;    
+-webkit-transition: all .2s ease;    
+-moz-transition: all .2s ease;    
+-o-transition: all .2s ease;        
+    
+}
+
+
+a.hearl:active{
+background-color:#165d26;
+transition: all .2s ease;    
+-webkit-transition: all .2s ease;    
+-moz-transition: all .2s ease;    
+-o-transition: all .2s ease;        
+    
+}
+
+.menubt{
+position:absolute;
+bottom:40px;
+text-align:center;
+width:auto;
+padding:0 auto;
+margin:0 auto;
+width:100%;
+padding-left:0;
+left:50%;    
+margin-left:-50%;
+}
+
+::selection {
+
+    background: #165d26;color:white;
+
+}
+
+
+
+::-moz-selection {
+
+    background: #165d26;color:white;
+
+}
