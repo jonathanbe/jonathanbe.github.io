@@ -2,7 +2,7 @@
 
 img.cornerlogo{
 position:fixed;top:2px;
-left:15px;z-index:10;
+left:15px;z-index:1;
 height:60px;   
 
 }
@@ -844,6 +844,9 @@ background-color:white;
   and (min-device-width: 768px) 
   and (max-device-width: 1024px)  {
 
+img.cornerlogo{
+z-index:1;
+}
 
 #bghov-latenight {
    width:50%;
