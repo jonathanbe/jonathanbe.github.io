@@ -849,6 +849,14 @@ div.fixtext{
 position:relative;    
 }      
 
+      
+img.cornerlogo{
+position:relative;top:2px;
+left:15px;z-index:10;
+height:60px;   
+}      
+      
+      
 #bghov-latenight {
    width:50%;
     height: 320px;
