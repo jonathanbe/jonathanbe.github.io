@@ -848,6 +848,16 @@ img.cornerlogo{
 z-index:1;
 }
 
+
+h2.basic{
+
+position:relative;
+z-index:0;
+ display:inline;
+    
+    
+}
+
 #bghov-latenight {
    width:50%;
     height: 320px;
