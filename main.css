@@ -24,6 +24,33 @@ letter-spacing:1px;
 font-size:14pt;font-weight:300;
 }
 
+a.tryit{
+background-color:#f43030;
+border-radius:10px;
+color:white;
+letter-spacing:2px;
+text-decoration:none;
+padding:10px 15px;
+
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;    
+}
+
+a.tryit:hover{
+background-color:#fd4949;
+
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;      
+}
+
+a.tryit:active{
+background-color:#f43030;
+}
+
 
 .about{
     background:white;
