@@ -138,6 +138,10 @@ margin-top:-25px !important;
   and (max-device-width: 1024px)  {
 
       
+div.fixtext{
+position:relative;    
+}   
+      
 }
 
 
