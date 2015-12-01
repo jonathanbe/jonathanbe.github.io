@@ -150,6 +150,10 @@ position:relative;
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
+.fixtext{
+position:relative;    
+}         
+      
 a.hearl{
 display:block;
 margin-top:10px;
