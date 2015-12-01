@@ -1,0 +1,56 @@
+/*------------------------------- hamburger---------------------------*/
+
+div.burgerbuntop_menu{
+   
+    width:50px;
+    height:11px;
+    /*background:url(/images/site/sesame.png);*/
+    background-size:220px;
+     background-color:#be8e50;
+     background-color:#d3984e;
+    border-top-left-radius:100px;
+    border-top-right-radius:100px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+div.lettuce_menu{
+    background-color:#50be65;
+    height:4px;
+    width:50px;
+    border-radius:5px;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+}
+
+div.ketchup_menu{
+ background-color:#ef3232;
+    border-radius:5px;
+    height:4px;
+    width:50px;   
+}
+
+div.cheese_menu{
+ background-color:#efb532;
+    border-radius:5px;
+    height:2px;
+    width:50px;   
+}
+
+div.patty_menu{
+ background-color:#6f5129;
+    border-radius:7px;
+    height:5px;
+    width:50px;   
+}
+
+
+div.burgerbunbottom_menu{
+    background-color:#be8e50;
+     background-color:#d3984e;
+    width:50px;
+    height:8px;
+    border-radius:5px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}

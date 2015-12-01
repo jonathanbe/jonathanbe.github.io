@@ -579,6 +579,174 @@ margin-right:-10px;
 
 
 
+/*--- bg hov beef ------------- */
+
+#bghov-beef {
+    width:100%;
+    height: 320px;
+    background: url(images/foods/beef-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-beef {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-beef:hover #overlay-beef {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov chicken ------------- */
+
+#bghov-chicken {
+    width:100%;
+    height: 320px;
+    background: url(images/foods/chicken-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-chicken {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-chicken:hover #overlay-chicken {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov soup ------------- */
+
+#bghov-soup {
+    width:100%;
+    height: 320px;
+    background: url(images/foods/soup.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-soup {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-soup:hover #overlay-soup {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov warmbv ------------- */
+
+#bghov-warmbv {
+    width:100%;
+    height: 320px;
+    background: url(images/foods/warmbeverages.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-warmbv {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-warmbv:hover #overlay-warmbv {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov warmbv ------------- */
+
+#bghov-dessert {
+    width:100%;
+    height: 320px;
+    background: url(images/foods/dessert-fily.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-dessert {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-dessert:hover #overlay-dessert {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
 /*--- bg hov holiday treats ------------- */
 
 #bghov-holiday-treats {
@@ -1378,6 +1546,174 @@ height:60px;
 
 
 
+/*--- bg hov beef ------------- */
+
+#bghov-beef {
+    width:50%;
+    height: 320px;
+    background: url(images/foods/beef-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-beef {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-beef:hover #overlay-beef {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov chicken ------------- */
+
+#bghov-chicken {
+    width:50%;
+    height: 320px;
+    background: url(images/foods/chicken-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-chicken {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-chicken:hover #overlay-chicken {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov soup ------------- */
+
+#bghov-soup {
+    width:50%;
+    height: 320px;
+    background: url(images/foods/soup.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-soup {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-soup:hover #overlay-soup {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov warmbv ------------- */
+
+#bghov-warmbv {
+    width:50%;
+    height: 320px;
+    background: url(images/foods/warmbeverages.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-warmbv {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-warmbv:hover #overlay-warmbv {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov warmbv ------------- */
+
+#bghov-dessert {
+    width:50%;
+    height: 320px;
+    background: url(images/foods/dessert-fily.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-dessert {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-dessert:hover #overlay-dessert {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
 /*--- bg hov holiday treats ------------- */
 
 #bghov-holiday-treats {
@@ -1553,7 +1889,7 @@ height:60px;
 /*--- bg hov party------------- */
 
 #bghov-party {
-   width:50%;
+   width:100%;
     height: 320px;
     background: url(images/foods/party.jpg);
     background-size: 100% 100%;
@@ -2127,6 +2463,174 @@ height:60px;
 
 
 
+/*--- bg hov beef ------------- */
+
+#bghov-beef {
+    width:50%;
+    height: 320px;
+    background: url(images/foods/beef-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-beef {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-beef:hover #overlay-beef {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+
+/*--- bg hov chicken ------------- */
+
+#bghov-chicken {
+    width:50%;
+    height: 320px;
+    background: url(images/foods/chicken-filt.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-chicken {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-chicken:hover #overlay-chicken {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov soup ------------- */
+
+#bghov-soup {
+    width:50%;
+    height: 320px;
+    background: url(images/foods/soup.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-soup {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-soup:hover #overlay-soup {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+/*--- bg hov warmbv ------------- */
+
+#bghov-warmbv {
+    width:50%;
+    height: 320px;
+    background: url(images/foods/warmbeverages.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-warmbv {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-warmbv:hover #overlay-warmbv {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
+
+/*--- bg hov warmbv ------------- */
+
+#bghov-dessert {
+    width:50%;
+    height: 320px;
+    background: url(images/foods/dessert-fily.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    border-top-left-radius:0;
+   margin-right:-5px;
+       margin-top:-8px;
+}
+
+#overlay-dessert {
+    background: rgba(5,5,5,0.7);
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    opacity: 1;
+    line-height:320px; border-top-left-radius:0;
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+#bghov-dessert:hover #overlay-dessert {
+    opacity: 1;
+    cursor: pointer;
+    background: rgba(255, 100, 137,0.3);
+    transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease;  -o-transition: all .2s ease;   
+}
+
+
 /*--- bg hov holiday treats ------------- */
 
 #bghov-holiday-treats {
@@ -2302,7 +2806,7 @@ height:60px;
 /*--- bg hov party------------- */
 
 #bghov-party {
-   width:50%;
+   width:100%;
     height: 320px;
     background: url(images/foods/party.jpg);
     background-size: 100% 100%;
