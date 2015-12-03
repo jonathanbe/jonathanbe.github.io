@@ -126,6 +126,10 @@ position:relative;
 top:4px;
 }
 
+a.whodis2{
+display:none;    
+}
+
 h1.basic{
 font-weight:300;
 color:#333;

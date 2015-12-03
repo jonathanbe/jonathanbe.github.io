@@ -15,13 +15,13 @@ font-size:14pt;
 table.bottompho{
         display:none;
     }
-    
+     
     
   
 .getit{
 position:fixed;
 z-index:9999;
-top:35px;
+top:65px;
 text-align:center;right:0;
 float:right;margin-right:25px;
     
@@ -32,14 +32,14 @@ font-size:14pt;font-weight:300;
 
 
 .getit a{
-border:2px solid rgba(255,255,255,0.09);
-background-color:rgba(255,255,255,0.09);
+border:2px solid #406dff;
+background-color:#406dff;
 text-decoration:none;
 font-weight:300;
 text-shadow:none;
 letter-spacing:3px;
 font-size:11pt;
-width:200px;
+width:200px;border-radius:5px;
 height:35px;line-height:35px;
 display:block;
 transition:all .3s ease;    
@@ -48,6 +48,57 @@ transition:all .3s ease;
 -o-transition:all .3s ease;      
 }  
    
+.getit a:hover{
+border:2px solid #406dff;
+background-color:#406dff;    
+}    
+    
+.getit a:nth-child(2) {
+display:none;
+}
+
+.getit a:nth-child(2):hover {
+border-color:#ff406d;
+}
+    
+    
+    
+a.whodis2{
+border:2px solid #ff406d;    
+background-color:#ff406d;
+color:white;
+border-radius:4px;
+text-decoration:none;
+padding:10px 25px;
+font-weight:light;
+text-shadow:none;
+letter-spacing:4px;
+cursor:pointer;
+display:inline-block;
+width:auto;
+margin-left:-5px;
+position:relative;
+margin-top:30px;
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;    
+}
+
+a.whodis2:hover{
+background-color:#ff557d;
+color:;
+
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;    
+}
+
+a.whodis2:active{
+position:relative;
+top:4px;
+}    
     
     
     
@@ -59,7 +110,7 @@ height:700px;
 .frontsection{
 position:fixed;
 z-index:9999;
-
+margin-top:-50px;
 text-align:center;
 margin-left:0%;
 margin-right:05%;
