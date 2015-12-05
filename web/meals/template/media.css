@@ -35,8 +35,54 @@ z-index:0;
     
 }
 
+div.mealbg{
 
+width:100%;
+padding:0 auto;
+margin:0 auto;
+position:relative;top:0;
+background:url(images/foods/asian-filt.jpg);
+background-size:100% 100%;
+background-position:fixed;
+text-align:center;
+
+height:300px;
     
+color:white;text-shadow:2px 2px #333;
+font-size:34pt;
+line-height:50px;opacity:1 !important;
+}
+    
+    
+div.mealbgcover{
+
+width:100%;
+padding:0 auto;
+margin:0 auto;
+position:relative;top:0;
+background-size:100% 100%;
+text-align:center;
+
+height:300px;
+    top:-3em;
+color:white;text-shadow:2px 2px #333;
+font-size:34pt;
+line-height:50px;opacity:1 !important;
+padding-bottom:0px;
+margin-bottom:0px;
+}    
+    
+div.main{
+position:relative;
+padding-top:23px;   
+height:auto; 
+padding-bottom:70px;
+padding-left:10%;
+padding-right:10%;
+margin-top:0px;
+background-color:white;
+z-index:25;
+}    
     
 div.fixtext{
 position:fixed;
@@ -47,7 +93,9 @@ margin-left:10%;
 margin-right:10%;    
 }
     
-   
+h1.bek{
+text-align:left;    
+}
     
 #header nav > ul > li > a.menuToggle {
 margin-right:-10px;
