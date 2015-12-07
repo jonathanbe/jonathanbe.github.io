@@ -346,7 +346,7 @@ margin-left:45px;
 }
 
 .cntnt h1{
-margin-left:25px;    
+margin-left:25px; font-weight:lighter;   
 }
 b{
 color:#2D3F50;
@@ -407,6 +407,9 @@ margin-top:25px;
 
 }
 
+.fixbox h1{
+font-weight:lighter;
+}
 
 table.mtbl{
 width:100%;
