@@ -222,7 +222,21 @@ border-radius:4px;
 box-shadow:         0px 5px 17px 0px rgba(50, 50, 50, 0.75);
 }
     
-   
+  
+div.mealpic{
+width:300px;
+height:300px;
+border-radius:10px;
+background:url(images/foods/buffalo-wings.jpg);
+background-size:100% 100%;
+-webkit-box-shadow: 0px 5px 17px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 5px 17px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 5px 17px 0px rgba(50, 50, 50, 0.75);
+margin-left:-20px;
+margin-right:-20px;
+}
+    
+    
 .fixbox{
 display:none;
 }    
