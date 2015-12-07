@@ -335,7 +335,7 @@ top:-45px;
  
       
 div.tabporcategories{
-display:inline;  
+display:inline-block;  
 margin-left:45px;
 margin-right:45px;    
 }
