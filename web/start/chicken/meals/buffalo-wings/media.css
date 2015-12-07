@@ -271,9 +271,7 @@ height: 100%;
 } 
    
 img.cornerlogo{
-top:-50px;
-
-
+top:-45px;
 } 
 
       
@@ -332,9 +330,13 @@ div.footer2{width:100%;}
 div.cntnt{width:100%;margin-left:-5px;}  
       
 img.cornerlogo{
-top:-50px;
-
-
+top:-45px;
 }      
+ 
+      
+div.tabporcategories{
+display:inline;        
+}  
+      
       
 }
