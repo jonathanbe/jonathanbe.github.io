@@ -272,6 +272,20 @@ text-decoration:underline;
     
 }
 
+
+a.cats2{
+color:#c62e22;
+text-decoration:none;   
+float:right;margin-right:155px;
+font-style: italic;
+}
+
+a.cats2:hover{
+text-decoration:underline;    
+    
+}
+
+
 a.hearl{
 border-radius:5px;
 display:inline-block;

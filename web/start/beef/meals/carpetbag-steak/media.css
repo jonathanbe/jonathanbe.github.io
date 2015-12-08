@@ -18,6 +18,21 @@ div.themeimg h1{
 display:none !important;
 }
     
+
+
+a.cats2{
+color:#c62e22;
+text-decoration:none;   
+float:left;margin-left:25px;
+font-style: italic;
+}
+
+a.cats2:hover{
+text-decoration:underline;    
+    
+}
+    
+    
     
 h2.basic{
 font-size:18pt;
@@ -330,6 +345,22 @@ line-height:35px;
 .fixbox{
 display:none;
 }      
+    
+      
+
+a.cats2{
+color:#c62e22;
+text-decoration:none;   
+float:right;margin-right:55px;
+font-style: italic;
+}
+
+a.cats2:hover{
+text-decoration:underline;    
+    
+}
+
+      
       
 div.footer2{width:100%;}      
 
