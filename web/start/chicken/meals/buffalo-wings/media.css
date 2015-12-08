@@ -18,6 +18,20 @@ div.themeimg h1{
 display:none !important;
 }
     
+
+cats2{
+color:#3eb489;
+text-decoration:none;   
+float:left;margin-left:5px;
+font-style: italic;
+}
+
+a.cats2:hover{
+text-decoration:underline;    
+    
+}
+
+ 
     
 h2.basic{
 font-size:18pt;
