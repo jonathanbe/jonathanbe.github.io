@@ -23,7 +23,7 @@ display:none !important;
 a.cats2{
 color:#c62e22;
 text-decoration:none;   
-float:left;margin-left:25px;
+float:left;margin-left:5px;
 font-style: italic;
 }
 
@@ -290,6 +290,19 @@ height: 100%;
 img.cornerlogo{
 top:-50px;
 } 
+
+      
+a.cats2{
+color:#c62e22;
+text-decoration:none;   
+float:right;margin-right:55px;
+font-style: italic;
+}
+
+a.cats2:hover{
+text-decoration:underline;    
+    
+}
 
       
 .fixbox{
