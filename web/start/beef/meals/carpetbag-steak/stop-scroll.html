@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> - jsFiddle demo</title>
+  
+  
+  <script type='text/javascript' src='//code.jquery.com/jquery-1.9.1.js'></script>
+  
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  
+  <style type='text/css'>
+    #container {
+	width: 980px;
+	margin: 40px auto;
+        top:5000px;
+}
+nav {
+	position: fixed;
+	
+    top: 75%;
+        
+        
+ 
+right:45px;
+border:3px solid #e6e6e6;
+background-color:white;
+border-radius:10px;
+border-radius:0px;
+height:auto;
+width:30%;
+padding-left:55px;
+padding-right:25px;
+margin-top:25px;
+ padding-bottom:25px;   
+        
+}
+
+
+
+#about, #contact, #moreSpace {
+	background: #fff;
+    background: rgba(255, 255, 255, .75);
+   
+	height: 768px;
+	margin-bottom: 30px;
+}
+  </style>
+  
+
+
+
+<script type='text/javascript'>//<![CDATA[
+
+$(function() {
+    var $Nav = $('#Nav');
+    var $window = $(window);
+    var $contact = $('#contact');
+    var maxTop = $contact.offset().top + $contact.height() - $Nav.height();
+    window.navFixed = 1;
+    
+    $window.bind("scroll resize", function() {
+        var currentTop = $window.scrollTop();
+        if (currentTop <= maxTop && window.navFixed == 0) {
+            $Nav.css({
+                position: 'fixed',
+                top: '5%'
+            });
+            window.navFixed = 1;
+        } else if (currentTop > maxTop && window.navFixed == 1) {
+            $Nav.css({
+                position: 'absolute',
+                top: maxTop
+            });
+            window.navFixed = 0;
+        }
+    }).scroll();
+});
+//]]> 
+
+</script>
+
+</head>
+<body>
+  <body>
+<div id="container">
+	<nav id="Nav">
+	
+<h1>Categories</h1>
+<a class="cats" href="http://www.crumyumapp.com/web/start/asian-dishes/">Asian Dishes</a><br>    
+<a class="cats" href="http://www.crumyumapp.com/web/start/beef/">Beef</a>   <br> 
+<a class="cats" href="http://www.crumyumapp.com/web/start/breakfast/">Breakfast</a><br>    
+<a class="cats" href="http://www.crumyumapp.com/web/start/burgers/">Burgers</a>    <br>
+<a class="cats" href="http://www.crumyumapp.com/web/start/cake/">Cakes</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/chicken/">Chicken</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/cookies/">Cookies</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/cultural/">Cultural Foods</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/dessert/">Dessert</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/drinks/">Drinks</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/fv/">Fruits &amp; Vegetables</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/healthy-choices/">Healthy Meals</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/late-night/">Late Night</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/mediterranean/">Mediterranean</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/party/">Party Dishes</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/pasta/">Pasta</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/pizza/">Pizza</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/relaxing/">Relaxing Dishes</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/salads/">Salads</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/sandwiches/">Sandwiches</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/seafood/">Seafood</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/soup/">Soups</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/sweets/">Sweets</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/warm-beverages/">Warm Beverages</a>  <br>  
+<a class="cats" href="http://www.crumyumapp.com/web/start/with-prep/">Meals With Prep</a>  <br>
+	</nav>
+    
+    <div id="about">
+        <p>about goes here</p>
+    </div><!-- end about -->
+    
+    <div id="contact">
+        <p>contact form goes here</p>
+    </div><!-- end contact -->
+    
+    <div id="moreSpace">more</div>
+</div>
+<body>
+  
+</body>
+    </body></body>
+</html>
+
