@@ -348,7 +348,9 @@ img.cornerlogo{
 top:-50px;
 }      
  
-      
+html, body{
+overflow-x:hidden;
+}
 div.tabporcategories{
 display:inline-block;  
    
