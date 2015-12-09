@@ -259,7 +259,11 @@ box-shadow:         0px 5px 17px 0px rgba(50, 50, 50, 0.75);
 margin-left:-20px;
 margin-right:-5px;
 }
-    
+  
+img.mealpic{
+ argin-left:-20px;
+margin-right:-5px;   
+}
     
 .fixbox{
 display:none;
