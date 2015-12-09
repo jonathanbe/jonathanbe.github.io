@@ -1,8 +1,9 @@
 body{
 background-color:#eaeaea;
 color:#333;
-font-family: 'Cousine', ;
-padding-top:200px;
+/*font-family: 'Cousine', ;*/
+font-family: 'VT323', ;
+padding-top:30px;
 padding-left:200px;
 letter-spacing:2px;
 }
