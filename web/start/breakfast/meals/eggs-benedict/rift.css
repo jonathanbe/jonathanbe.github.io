@@ -84,7 +84,7 @@ div.mealpic{
 width:300px;
 height:300px;
 border-radius:10px;
-background:url(images/foods/burrito.jpg);
+background:url(images/foods/eggs.jpg);
 background-size:100% 100%;
 -webkit-box-shadow: 0px 5px 17px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px 5px 17px 0px rgba(50, 50, 50, 0.75);
@@ -115,7 +115,7 @@ width:100%;
 padding:0 auto;
 margin:0 auto;
 position:fixed;top:0;
-background:url(images/foods/burrito.jpg);
+background:url(images/foods/eggs.jpg);
 background-size:100% 100%;
 background-position:fixed;
 text-align:center;
@@ -241,7 +241,7 @@ padding:0 auto;
 margin:0 auto;
 position:fixed;top:0;
 background:   url(images/large/overlay.png) , 
-    url(images/foods/burrito.jpg) no-repeat fixed;
+    url(images/foods/eggs.jpg) no-repeat fixed;
     background-size:100% 400px !important;    
 background-position:fixed;
 text-align:center;
