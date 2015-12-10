@@ -6,7 +6,7 @@ color:#ffffff;
 font-family: 'Cousine';
 padding-top:30px;
 padding-left:200px;
-letter-spacing:2px;
+letter-spacing:4px;
     height:3000px;
 }
 
@@ -24,7 +24,7 @@ a:hover{
 
 
 ::-webkit-scrollbar {
-    width: 8px;margin-right:24px;position:fixed;z-index:99999;
+    width: 3px;margin-right:24px;position:fixed;z-index:99999;
 }
  
 ::-webkit-scrollbar-track {
@@ -37,7 +37,7 @@ a:hover{
 }
  
 ::-webkit-scrollbar-thumb {
-    border-radius: 20%;cursor:pointer;background-color:#21a559;/*sitegreen*/
+    border-radius:0;cursor:pointer;background-color:#21a559;/*sitegreen*/
     /*border:3px solid #ff406d;opacity:0.3;z-index:99999;*/
     background:#00ff14;
 
