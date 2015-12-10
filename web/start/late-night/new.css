@@ -36,7 +36,7 @@ h2.basic{
 display:none;
 }
 
-div.main{
+div.main{ font-size:11pt;{
 position:relative;
 padding-top:23px;   
 height:auto; 
@@ -45,7 +45,7 @@ padding-bottom:70px;
 background-color:#fff;
 }
 
-div.main2{
+div.main{ font-size:11pt;2{
 position:relative;
 padding:0 auto;
 height:auto; 
