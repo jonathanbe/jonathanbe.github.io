@@ -1,0 +1,407 @@
+@media only screen  and (min-width: 320px) and (max-width: 668px) {
+
+img.cornerlogo{
+position:fixed;top:2px;
+left:15px;z-index:0;
+height:50px;   
+
+}
+    
+ 
+div.spacerx{
+margin-left:10%;    
+margin-right:10%;    
+}    
+    
+
+div.themeimg h1{
+display:none !important;
+}
+    
+
+
+a.cats2{
+color:#3f980b;
+text-decoration:none;   
+float:left;margin-left:5px;
+font-style: italic;
+}
+
+a.cats2:hover{
+text-decoration:underline;    
+    
+}
+  
+span.st_facebook_custom, span.st_twitter_custom{
+display:block;
+margin-top:10px;
+width:90%;
+font-weight:bold;
+height:45px;
+line-height:35px;
+font-size:16pt;letter-spacing:2px;
+}
+    
+    
+h2.basic{
+font-size:18pt;
+letter-spacing:4px;
+color:white !important;
+text-align:center;
+text-shadow:none;
+padding:0 auto;
+margin:0 auto;
+padding-top:150px;
+position:relative;
+z-index:0;
+ display:inline;
+    
+    
+}
+
+div.mealbg{
+
+width:100%;
+padding:0 auto;
+margin:0 auto;
+position:relative;top:0;
+background:url(images/foods/asian-filt.jpg);
+background-size:100% 100%;
+background-position:fixed;
+text-align:center;
+
+height:300px;
+    
+color:white;text-shadow:2px 2px #333;
+font-size:34pt;
+line-height:50px;opacity:1 !important;
+}
+    
+    
+
+    
+div.main{ font-size:11pt;
+position:relative;
+padding-top:23px;   
+height:auto; 
+padding-bottom:70px;
+padding-left:10%;
+padding-right:10%;
+margin-top:0px;
+background-color:white;
+z-index:25;
+}    
+    
+div#header{
+background:transparent !important;    
+}
+    
+div.fixtext{
+position:fixed;
+width:80%;
+z-index:;    
+top:35px;  
+margin-left:10%;    
+margin-right:10%;    
+}
+    
+h1.bek{
+text-align:left;    
+}
+    
+#header nav > ul > li > a.menuToggle {
+margin-right:-10px;
+    
+}
+    
+ ol{
+text-align:left;padding-left:25px    
+}   
+    
+
+    
+    
+    
+  div.main{ font-size:11pt;
+      padding-top:50px;
+      background-color:#eaeaea;
+      z-index:10;
+  }
+    
+    
+div.footer2{
+position:relative;
+height:auto;
+color:black;
+background:url(images/site/colorbg-blue.jpg) ;
+background-size:245px;    
+background-color:black;
+padding-top:70px;
+padding-bottom:10px;
+font-weight:bold;
+width:100%;
+}
+
+div.footer2 p{
+padding:4px 10px;
+background-color:white;
+    border:2px solid #333;
+    width:auto;
+
+}
+    
+    
+    
+    
+a.hearl{
+display:block;
+margin-top:10px;
+width:90%;
+font-weight:bold;
+height:45px;
+line-height:35px;
+font-size:16pt;
+}    
+    
+    
+    div.themeimg{
+width:100%;
+padding:0 auto;
+margin:0 auto;
+ 
+    
+background:   url(images/large/overlay.png) , 
+    url(images/foods/cultural.jpg) no-repeat fixed;
+    background-size:100% 150px !important;    
+background-position:fixed;
+text-align:center;
+    
+/*background-size:100% 400px;
+background-repeat:no-repeat;  */
+margin-top:-3em; 
+height:150px;
+}
+
+    
+  #menu ul > li {
+/*border-top: solid 1px rgba(0, 0, 0, 0.125);*/
+margin-top:-25px !important;
+}   
+  
+    
+    
+table.mtbl{
+width:100%;
+border:2px solid transparent;
+}
+
+td{
+border:2px solid transparent;
+width:100%;
+display:block;
+}
+
+
+td:nth-child(1) {
+border-right:2px solid transparent;
+ box-shadow:none; 
+ 
+}
+
+td:nth-child(2) {
+padding-left:4px;
+}
+    
+    
+    
+div.mealbg{
+width:100%;
+padding:0 auto;
+margin:0 auto;
+ 
+    
+background: url(images/foods/pancakes.jpg) no-repeat;
+    background-size:100% 100% !important;    
+position:relative;
+text-align:center;
+    
+/*background-size:100% 400px;
+background-repeat:no-repeat;  */
+height:300px;  
+}    
+  
+div.mealbgcover{
+font-size:24pt;
+line-height:200px;position:relative;
+margin-top:-190px;
+}    
+    
+img.meal{
+width:100%;
+height:300px;
+border-radius:4px;
+    
+-webkit-box-shadow: 0px 5px 17px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 5px 17px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 5px 17px 0px rgba(50, 50, 50, 0.75);
+}
+    
+  
+div.mealpic{
+width:300px;
+height:300px;
+border-radius:10px;
+background:url(images/foods/pancakes.jpg);
+background-size:100% 100%;
+-webkit-box-shadow: 0px 5px 17px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 5px 17px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 5px 17px 0px rgba(50, 50, 50, 0.75);
+margin-left:-20px;
+margin-right:-5px;
+}
+  
+img.mealpic{
+margin-left:-20px;
+margin-right:-5px;   
+}
+    
+.fixbox{
+display:none;
+}    
+  
+div.cntnt{
+width:100%;
+padding-left:3%;
+    border:2px solid transparent;
+margin-left:0px;
+top:500px;
+}    
+    
+h1{
+text-align:center;    
+}
+    
+    
+  }
+
+
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+
+html, body{
+overflow-x:hidden !important;
+}      
+.fixtext{
+position:relative !important;  
+width: 100%;
+height: 100%;    
+} 
+   
+img.cornerlogo{
+top:-50px;
+} 
+
+      
+a.cats2{
+color:#3f980b;
+text-decoration:none;   
+float:right;margin-right:55px;
+font-style: italic;
+}
+
+a.cats2:hover{
+text-decoration:underline;    
+    
+}
+
+      
+.fixbox{
+float:right;
+margin-right:25px;
+border:3px solid #e6e6e6;
+background-color:white;
+border-radius:10px;
+border-radius:0px;
+height:auto;
+width:32%;
+padding-left:55px;
+padding-right:25px;
+margin-top:25px;
+padding-bottom:25px;   
+margin-top:25px; 
+ 
+    
+    
+      height:610px;overflow-y:scroll;  
+
+}      
+    
+  
+      
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+html, body{
+overflow-x:hidden !important;
+}  
+      
+.fixtext{
+position:relative !important;   
+width: 100%;
+height: 100%;
+}         
+      
+a.hearl{
+display:block;
+margin-top:10px;
+width:50%;
+font-weight:bold;
+height:45px;
+line-height:35px;  
+}      
+   
+.fixbox{
+display:none;
+}      
+    
+      
+
+a.cats2{
+color:#3f980b;
+text-decoration:none;   
+float:right;margin-right:55px;
+font-style: italic;
+}
+
+a.cats2:hover{
+text-decoration:underline;    
+    
+}
+
+      
+      
+div.footer2{width:100%;}      
+
+div.cntnt{width:100%;
+    margin-left:5px;margin-right:5px;}  
+      
+img.cornerlogo{
+top:-50px;
+}      
+ 
+      
+div.tabporcategories{
+display:inline-block;  
+   
+}
+      
+      
+}
