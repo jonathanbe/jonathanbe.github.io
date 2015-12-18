@@ -2,21 +2,22 @@ body{
 background-color:#ffffff;
 /*background-color:#111;*/
 color:#333;background-color:#ebeaea;
-color:#406dff;font-weight:;
+color:#406dff;
 font-family: 'Cousine';
 padding-top:30px;
 padding-left:200px;
 letter-spacing:4px;
-    height:3000px;
+    height:auto;font-weight:;
+    padding-bottom:45px;text-shadow:1px 1px yellow;
 }
 
 a{
 color:#3eb489;
 color:#00ff14;
-color:#ff3793;
+color:#ff50a1;
 text-decoration:none;
 margin-top:200px;
-font-weight:;
+font-weight:none !important;border-left:2px solid yellow;padding-left:8px;
 }
 
 a:hover{
@@ -41,7 +42,7 @@ a:hover{
     border-radius:0;cursor:pointer;background-color:#406dff;/*sitegreen*/
     /*border:3px solid #ff406d;opacity:0.3;z-index:99999;*/
     background:#406dff;
-
+background: -webkit-linear-gradient(top, #406dff 10%, #406dff 33%, #ff406d 10%, #ff406d 66%, yellow 10%, yellow 100%);
 }
 
 
