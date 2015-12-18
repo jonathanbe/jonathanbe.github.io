@@ -24,9 +24,16 @@ a:hover{
     text-decoration:underline;
 }
 
+p.separator {
+    height: 0;
+    width: 50%;
+    border-top: 4px solid #f06dff;
+    border-bottom: 2px solid #ffff5a;
+
+}
 
 ::-webkit-scrollbar {
-    width: 7px;margin-right:24px;position:fixed;z-index:99999;
+    width: 43px;margin-right:24px;position:fixed;z-index:99999;
 }
  
 ::-webkit-scrollbar-track {
@@ -42,7 +49,7 @@ a:hover{
     border-radius:0;cursor:pointer;background-color:#406dff;/*sitegreen*/
     /*border:3px solid #ff406d;opacity:0.3;z-index:99999;*/
     background:#406dff;
-background: -webkit-linear-gradient(top, #406dff 10%, #406dff 33%, #ff406d 10%, #ff406d 66%, yellow 10%, yellow 100%);
+background: -webkit-linear-gradient(top, #406dff 10%, #406dff 33%, #ff406d 10%, #ff406d 66%, yellow 10%, yellow 100%);border-right:37px solid #eaeaea;
 }
 
 
