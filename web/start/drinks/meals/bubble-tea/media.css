@@ -177,7 +177,7 @@ margin:0 auto;
  
     
 background:   url(images/large/overlay.png) , 
-    url(images/foods/cultural.jpg) no-repeat fixed;
+    url(images/foods/tea.jpg) no-repeat fixed;
     background-size:100% 150px !important;    
 background-position:fixed;
 text-align:center;
@@ -226,7 +226,7 @@ padding:0 auto;
 margin:0 auto;
  
     
-background: url(images/foods/tea.) no-repeat;
+background: url(images/foods/tea.jpg) no-repeat;
     background-size:100% 100% !important;    
 position:relative;
 text-align:center;
