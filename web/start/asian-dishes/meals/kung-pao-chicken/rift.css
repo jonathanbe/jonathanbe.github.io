@@ -19,7 +19,7 @@ position:relative;
    z-index:50;
     background:#815BFF !important;
     background:#333 !important;
-    background:#3eb489 !important;
+    background:#514176 !important;
     border-bottom:1px solid white;
  
 }
@@ -84,7 +84,7 @@ div.mealpic{
 width:300px;
 height:300px;
 border-radius:10px;
-background:url(images/foods/pao.);
+background:url(images/foods/pao.jpg);
 background-size:100% 100%;
 -webkit-box-shadow: 0px 5px 17px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    0px 5px 17px 0px rgba(50, 50, 50, 0.75);
@@ -271,7 +271,7 @@ margin-right:0 auto;
 }
 
 a.cats{
-color:#3eb489;
+color:#514176;
 text-decoration:none;   
 }
 
@@ -282,7 +282,7 @@ text-decoration:underline;
 
 
 a.cats2{
-color:#3eb489;
+color:#514176;
 text-decoration:none;   
 float:right;margin-right:55px;
 font-style: italic;
@@ -366,7 +366,7 @@ border-radius:5px;
 display:inline-block;
 width:200px;
 text-align:center;
-background-color:#3eb489;
+background-color:#514176;
 text-decoration:none;
 color:white;
 padding-top:5px;
@@ -381,7 +381,7 @@ transition: all .2s ease;
 
 
 a.hearl:hover{
-background-color:#61c19e;
+background-color:#645980;
 transition: all .2s ease;    
 -webkit-transition: all .2s ease;    
 -moz-transition: all .2s ease;    
@@ -391,7 +391,7 @@ transition: all .2s ease;
 
 
 a.hearl:active{
-background-color:#3eb489;
+background-color:#514176;
 transition: all .2s ease;    
 -webkit-transition: all .2s ease;    
 -moz-transition: all .2s ease;    
@@ -538,7 +538,7 @@ margin-right:20%;
 
 ::selection {
 
-    background: #3eb489;color:white;
+    background: #514176;color:white;
 
 }
 
@@ -546,7 +546,7 @@ margin-right:20%;
 
 ::-moz-selection {
 
-    background: #3eb489;color:white;
+    background: #514176;color:white;
 
 }
 
@@ -600,7 +600,7 @@ margin-right:20%;
 .fixbox::-webkit-scrollbar-thumb {
     border-radius: 0px;cursor:pointer;background-color:#21a559;/*sitegreen*/
     /*border:3px solid #ff406d;opacity:0.3;z-index:99999;*/
-    background:#3eb489;
+    background:#514176;
 
 }
 
