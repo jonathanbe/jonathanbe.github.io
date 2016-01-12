@@ -3,7 +3,7 @@ padding:0 auto;
 margin:0 auto;
 width:100%;height:auto;
 font-family: 'Roboto Condensed', sans-serif;
-background-color:#eaeaea;
+background-color:#f7f7f7;
 overflow-x:hidden !important;
 color:#2D3F50;
 position:relative;
@@ -47,7 +47,7 @@ padding-bottom:70px;
 /*padding-left:10%;*/
 /*padding-right:10%;*/
 margin-top:300px;
-background-color:#eaeaea;
+background-color:#f7f7f7;
 z-index:25;
 }
 
@@ -55,7 +55,7 @@ div.main2{
 position:relative;
 padding:0 auto;
 height:auto; 
-background-color:#eaeaea;
+background-color:#f7f7f7;
 z-index:99;
 padding-top:40px;
 padding-bottom:100px;
