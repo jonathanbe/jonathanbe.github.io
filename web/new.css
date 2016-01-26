@@ -337,7 +337,7 @@ background: -webkit-linear-gradient(top, #222 10%, #222 99.6%, #eaeaea 1%, #eaea
 #bghov-sweets {
     width: 20.05%;
     height: 320px;
-    background: url(images/foods/sweets.jpg);
+       background: url(images/foods/dessert-fily.jpg);
     background-size: 100% 100%;
     border-radius: 0px;
     overflow: hidden;
@@ -889,7 +889,7 @@ background: -webkit-linear-gradient(top, #222 10%, #222 99.6%, #eaeaea 1%, #eaea
 #bghov-dessert {
     width: 20.05%;
     height: 320px;
-    background: url(images/foods/dessert-fily.jpg);
+    background: url(images/foods/sweets.jpg);
     background-size: 100% 100%;
     border-radius: 0px;
     overflow: hidden;

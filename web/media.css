@@ -168,7 +168,7 @@ margin-right:-10px;
 #bghov-sweets {
    width:100%;
     height: 320px;
-    background: url(images/foods/sweets.jpg);
+     background: url(images/foods/dessert-fily.jpg);
     background-size: 100% 100%;
     border-radius: 0px;
     overflow: hidden;
@@ -719,7 +719,7 @@ margin-right:-10px;
 #bghov-dessert {
     width:100%;
     height: 320px;
-    background: url(images/foods/dessert-fily.jpg);
+    background: url(images/foods/sweets.jpg);
     background-size: 100% 100%;
     border-radius: 0px;
     overflow: hidden;
@@ -1135,7 +1135,7 @@ height:60px;
 #bghov-sweets {
    width:50%;
     height: 320px;
-    background: url(images/foods/sweets.jpg);
+    background: url(images/foods/dessert-fily.jpg);
     background-size: 100% 100%;
     border-radius: 0px;
     overflow: hidden;
@@ -1686,7 +1686,7 @@ height:60px;
 #bghov-dessert {
     width:50%;
     height: 320px;
-    background: url(images/foods/dessert-fily.jpg);
+    background: url(images/foods/sweets.jpg);
     background-size: 100% 100%;
     border-radius: 0px;
     overflow: hidden;
@@ -2052,7 +2052,7 @@ height:60px;
 #bghov-sweets {
    width:50%;
     height: 320px;
-    background: url(images/foods/sweets.jpg);
+    background: url(images/foods/dessert-fily.jpg);
     background-size: 100% 100%;
     border-radius: 0px;
     overflow: hidden;
@@ -2603,7 +2603,7 @@ height:60px;
 #bghov-dessert {
     width:50%;
     height: 320px;
-    background: url(images/foods/dessert-fily.jpg);
+    background: url(images/foods/sweets.jpg);
     background-size: 100% 100%;
     border-radius: 0px;
     overflow: hidden;
