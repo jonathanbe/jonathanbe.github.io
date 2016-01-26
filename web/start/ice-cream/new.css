@@ -149,7 +149,7 @@ margin-right:0 auto;
 }
 
 a.cats{
-color:#ba50be;
+color:#42acef;
 text-decoration:none;   
 }
 
@@ -164,7 +164,7 @@ border-radius:5px;
 display:inline-block;
 width:200px;
 text-align:center;
-background-color:#ba50be;
+background-color:#42acef;
 text-decoration:none;
 color:white;
 padding-top:5px;
@@ -179,7 +179,7 @@ transition: all .2s ease;
 
 
 a.hearl:hover{
-background-color:#c876cb;
+background-color:#66b9ed;
 transition: all .2s ease;    
 -webkit-transition: all .2s ease;    
 -moz-transition: all .2s ease;    
@@ -189,7 +189,7 @@ transition: all .2s ease;
 
 
 a.hearl:active{
-background-color:#ba50be;
+background-color:#42acef;
 transition: all .2s ease;    
 -webkit-transition: all .2s ease;    
 -moz-transition: all .2s ease;    
@@ -212,7 +212,7 @@ margin-left:-50%;
 
 ::selection {
 
-    background: #ba50be;color:white;
+    background: #42acef;color:white;
 
 }
 
@@ -220,6 +220,6 @@ margin-left:-50%;
 
 ::-moz-selection {
 
-    background: #ba50be;color:white;
+    background: #42acef;color:white;
 
 }
