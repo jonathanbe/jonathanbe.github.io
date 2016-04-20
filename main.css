@@ -24,6 +24,26 @@ letter-spacing:1px;
 font-size:14pt;font-weight:300;height:500px;
 }
 
+.frontSCBG{
+position:fixed;
+z-index:10;
+top:0px;
+text-align:center;
+width:100%;
+text-shadow:2px 2px rgba(5,5,5,0.6);;
+letter-spacing:1px;
+font-size:14pt;font-weight:300;height:500px;
+    
+background:url(images/site/colorbg-blue.jpg);
+background-size:65%;
+height:90%;
+}
+
+.pdbox{
+    top:205px;
+    position:relative;
+    margin-bottom:500px;
+}
 a.tryit{
 background-color:#f43030;
 border-radius:10px;
@@ -65,12 +85,35 @@ background-color:#f43030;
     width:100%;
 }
 
+.about2{
+   background:white;
+    background:url(images/site/foodbg3.png);background-size:200px;
+    height:auto;
+    padding:0 auto;
+    margin:0 auto;
+    z-index:99999 !important;
+    position:relative;
+    top:700px;color:#2D3F50;letter-spacing:2px;
+    padding-bottom:80px;
+    width:100%; 
+}
+
 .madein{
 position:fixed;
-z-index:10;
+z-index:100;
 top:15px;
 left:20px;
 color:rgba(255,255,255,0.4);
+letter-spacing:2px;
+}
+
+
+.madein2{
+position:fixed;
+z-index:1000 !important;
+top:15px;
+left:20px;
+color:white;
 letter-spacing:2px;
 }
 
@@ -133,6 +176,130 @@ a.whodis2, a.whodis3{
 display:none;    
 }
 
+
+
+
+
+
+a.whodispink{
+background-color:rgba(255,255,255,1);
+color:#222;
+border-radius:4px;
+text-decoration:none;
+padding:10px 25px;
+font-weight:light;
+text-shadow:none;
+letter-spacing:4px;
+cursor:pointer;
+    
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;    
+}
+
+a.whodispink:hover{
+background-color:#406dff;
+color:white;
+  
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;   
+}
+
+a.whodispink:active{
+position:relative;
+top:4px;
+}
+
+
+
+
+
+a.appbutton{
+border:1px solid rgba(255,255,255,0.6);
+ 
+background-color:white;
+ background: #ff406d; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ff406d 0%, #2989d8 100%, #207cca 100%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #ff406d 0%,#2989d8 100%,#207cca 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #ff406d 0%,#2989d8 100%,#207cca 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff406d', endColorstr='#7db9e8',GradientType=1 ); 
+color:white;
+border-radius:5px;
+text-decoration:none;
+padding:5px 15px;
+font-weight:light;
+font-size:10pt;margin-right:5px;
+text-shadow:none;
+letter-spacing:4px;
+cursor:pointer;
+display:inline-block;
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;    
+}
+
+a.appbutton:hover{
+background-color:rgba(255,255,255,.1);
+background-color:white;
+color:;
+
+color:#333;   
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;   
+}
+
+a.appbutton:active{
+position:relative;
+top:4px;
+}
+
+
+a.appbutton2{
+border:1px solid transparent;  
+background-color:rgba(255,255,255,0.05);
+color:white;
+background-color:#333;
+border-radius:5px;
+text-decoration:none;
+padding:5px 15px;
+font-weight:light;
+font-size:10pt;
+text-shadow:none;
+letter-spacing:4px;
+cursor:pointer;
+display:inline-block;
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;    
+}
+
+a.appbutton2:hover{
+background-color:rgba(255,255,255,.1);
+background-color:white;
+color:;
+
+color:#333;   
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;   
+}
+
+a.appbutton2:active{
+position:relative;
+top:4px;
+}
+
+
+
+
 h1.basic{
 font-weight:300;
 color:#333;
@@ -189,6 +356,32 @@ background-color:rgba(5,5,5,0.3);
 .getit a:nth-child(2):hover {
 border-color:#ff406d;
 }
+
+
+a.pop{
+border:1px solid :#3eb489;
+background-color:#3eb489;
+text-decoration:none;
+font-weight:300;
+text-shadow:none;
+letter-spacing:3px;
+font-size:11pt;
+width:200px;
+height:35px;line-height:35px;
+display:block;
+transition:all .3s ease;    
+-webkit-transition:all .3s ease;    
+-moz-transition:all .3s ease;    
+-o-transition:all .3s ease;      
+}
+
+
+a.pop:hover{
+border-color:white;
+background-color:rgba(255,255,255,1);
+color:#3eb489;
+}
+
 
 div.hiw1{
 background-color:#21a559;
@@ -305,6 +498,8 @@ padding-left:0;
 left:50%;    
 margin-left:-50%;
 }
+
+
 /*------------------------------- hamburger---------------------------*/
 
 div.burgerbuntop{
@@ -375,7 +570,7 @@ height:400px;
     background-image: -o-linear-gradient(left, #21a559 10%, #21a559 25%, #f42e2e 10%, #f42e2e 50%, #845517 10%, #845517 75%, #c18f4d 10%, #c18f4d 100%);
     background-image: -webkit-gradient(left, #21a559 10%, #21a559 25%, #f42e2e 10%, #f42e2e 50%, #845517 10%, #845517 75%, #c18f4d 10%, #c18f4d 100%);
     background-image: -webkit-linear-gradient(left, #21a559 10%, #21a559 25%, #f42e2e 10%, #f42e2e 50%, #845517 10%, #845517 75%, #c18f4d 10%, #c18f4d 100%);
-    background-image: linear-gradient(left, #21a559 10%, #21a559 25%, #f42e2e 10%, #f42e2e 50%, #845517 10%, #845517 75%, #c18f4d 10%, #c18f4d 100%);  
+    background-image: linear-gradient-(left, #21a559 10%, #21a559 25%, #f42e2e 10%, #f42e2e 50%, #845517 10%, #845517 75%, #c18f4d 10%, #c18f4d 100%);  
 }
 
 

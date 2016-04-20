@@ -20,7 +20,15 @@
   transition: opacity 1.2s;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+    
+/*     */
+    
+/*    width:100%;*/
+/*    height:100%;*/width:auto;
 }
+
+
+
 .bss-slides .bss-show{
   z-index: 2;
 }
@@ -140,8 +148,9 @@
 
 @media (min-width:1281px) { 
     
-.bss-slides figure:first-child{
-  width:1950px;
+.bss-slides figure img{
+    width:1550px;
+    height:100%;
 }
 
 }
