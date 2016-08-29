@@ -1,69 +1,61 @@
 <!DOCTYPE HTML>
-
 <html>
-	<head>
-		<title>Mmmmmmm..... - crumyum Web</title>
-		<meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">    
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
 
-<!--<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"> -->       
-<link rel="icon" type="image/png" sizes="96x96" href="ms-icon-310x310.png">    
-	  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">	
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,100' rel='stylesheet' type='text/css'><link href='https://fonts.googleapis.com/css?family=Cousine:400,700' rel='stylesheet' type='text/css'>		
-<link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>   
-<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>	
+<head>
+    <title>Mmmmmmm..... - crumyum Web</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!--<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"> -->
+    <link rel="icon" type="image/png" sizes="96x96" href="ms-icon-310x310.png">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cousine:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/contact/general.css" type="text/css" media="screen" />
-        
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/burgermenu.css" />
-		<link rel="stylesheet" href="main.css" />
-      <link rel="stylesheet" href="new.css" />
-      <link rel="stylesheet" href="media.css" />
-	
-        
- 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script>
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/burgermenu.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="new.css" />
+    <link rel="stylesheet" href="media.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
 
-	      var target = $(this.hash);
-	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	      if (target.length) {
-	        $('html,body').animate({
-	          scrollTop: target.offset().top
-	        }, 1000);
-	        return false;
-	      }
-	    }
-	  });
-	});
-	</script>
- 	
-        <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
-	</head>
-	<body><!--
+<body>
+    <!--
         <div class="animated fadeInDown"> 
         <div class="motto">Simple. Clean. Elegeant.</div>    
         </div>-->
-        
-		<!-- Page Wrapper -->
-		<div id="page-wrapper">
-
-
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html" style="letter-spacing:2px;"></a></h1>
-						<nav id="nav">
-							<ul>
-								<li class="special">
-									<a href="#" class="menuToggle"><span> 
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1><a href="index.html" style="letter-spacing:2px;"></a></h1>
+            <nav id="nav">
+                <ul>
+                    <li class="special"> <a href="#" class="menuToggle"><span> 
                                         <!--<font size="23pt;"><i class="fa fa-bars"></i></font>-->
      <div class="burgerbuntop_menu"></div>
      <div class="lettuce_menu"></div>
@@ -72,344 +64,248 @@
      <div class="patty_menu"></div>  
      <div class="burgerbunbottom_menu"></div>
                                         </span></a>
-									<div id="menu">
-										<ul>
-																			<li><a href="http://www.crumyumapp.com">Home</a></li>
-											<li><a href="http://www.crumyumapp.com/web#categories">Categories</a></li>
-											<li><a href="#howwecanhelp">Random Dish</a></li>
-                                            <li><a href="#ourportfolio">Contact</a></li>											
-                                            
-                                            <div class="menubt">
-                                            <center style="color:white;text-shadow:2px 2px #222;font-size:16pt;">
-                                                Made in Ottawa
-                                            </center>
-											</div>
-											
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</nav>
-					</header>
-<img class="cornerlogo" src="images/site/logo3.png">          
-<div class="themeimg">
-<center>    
-<div class="fixtext">
-<h1>what are you in the mood for?</h1>  <br>
-    
-    <h2 class="basic">What are you in the mood for?</h2> 
-            </div>
-    
-    </center>    
-</div>            
-            
- <div class="main">        
-   <div class="spacer">
-   <div class="spacer">
- <center>
-     
-     </center>     
-     
-     
-        </div><!--spacer-->   
-        </div><!--spacer-->   
-     <br>
-     <center>Select a category to start,  or <a href="" class="random">jump to a random meal</a>!</center> <br><br>
-<div class="bghov-bgs">
- <h1 id="categories"></h1> 
-
-<a href="http://www.crumyumapp.com/web/start/healthy-choices/" style="text-decoration:none;">
-<div id="bghov-healthy">  
-  <div id="overlay-healthy">
-    <span id="plus">Healthy</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>       
-    
-    
-<a href="http://www.crumyumapp.com/web/start/late-night/" style="text-decoration:none;">
-<div id="bghov-latenight">  
- <div id="overlay-latenight">
-  <span id="plus">Late Night</span>
- </div><!--overlay---> 
-</div> <!---bghov--> 
-    </a>  
-    
-    
-<a href="http://www.crumyumapp.com/web/start/cultural/" style="text-decoration:none;">
-<div id="bghov-cultural">  
-  <div id="overlay-cultural">
-    <span id="plus">Cultural</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>     
- 
-    
-<a href="http://www.crumyumapp.com/web/start/ice-cream/" style="text-decoration:none;">
-<div id="bghov-sweets">  
-  <div id="overlay-sweets">
-    <span id="plus">Ice Cream</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>       
-    
-
-<a href="http://www.crumyumapp.com/web/start/with-prep/" style="text-decoration:none;">
-<div id="bghov-wprep">  
-  <div id="overlay-wprep">
-    <span id="plus">With Prep</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>       
-    
-<!--                               break                               -->    
-    
-  
-<a href="http://www.crumyumapp.com/web/start/fv/" style="text-decoration:none;">
-<div id="bghov-fruit-veggie">  
-  <div id="overlay-fruit-veggie">
-    <span id="plus">Fruit &amp; Veggie</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>      
-    
-<a href="http://www.crumyumapp.com/web/start/pasta/" style="text-decoration:none;">
-<div id="bghov-noodles">  
-  <div id="overlay-noodles">
-    <span id="plus">Pasta</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>    
-
-    
-<a href="http://www.crumyumapp.com/web/start/asian-dishes/" style="text-decoration:none;">
-<div id="bghov-asian">  
-  <div id="overlay-asian">
-    <span id="plus">Asian DIshes</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>  
-
-    
-<a href="http://www.crumyumapp.com/web/start/burgers/" style="text-decoration:none;">
-<div id="bghov-burgers">  
-  <div id="overlay-burgers">
-    <span id="plus">Burgers</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>      
-    
-    
-<a href="http://www.crumyumapp.com/web/start/cookies/" style="text-decoration:none;">
-<div id="bghov-cookies">  
-  <div id="overlay-cookies">
-    <span id="plus">Cookies</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>     
- <!--                               break                               -->    
-    
-<a href="http://www.crumyumapp.com/web/start/beef/" style="text-decoration:none;">
-<div id="bghov-beef">  
-  <div id="overlay-beef">
-    <span id="plus">Beef</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>      
-   
-    
-<a href="http://www.crumyumapp.com/web/start/chicken/" style="text-decoration:none;">
-<div id="bghov-chicken">  
-  <div id="overlay-chicken">
-    <span id="plus">Chicken</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>      
-    
-    
-<a href="http://www.crumyumapp.com/web/start/soup/" style="text-decoration:none;">
-<div id="bghov-soup">  
-  <div id="overlay-soup">
-    <span id="plus">Soup</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>      
-    
-    
-    
-    
-<a href="http://www.crumyumapp.com/web/start/warm-beverages/" style="text-decoration:none;">
-<div id="bghov-warmbv">  
-  <div id="overlay-warmbv">
-    <span id="plus" style="font-size:23pt;">Warm</span>
-    <span id="plus" style="font-size:23pt;">Beverages </span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>      
-        
-    
-<a href="http://www.crumyumapp.com/web/start/dessert/" style="text-decoration:none;">
-<div id="bghov-dessert">  
-  <div id="overlay-dessert">
-    <span id="plus">Dessert</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>      
-         
-    
-<!--                               break                               -->    
-    
-<a href="http://www.crumyumapp.com/web/start/salads/" style="text-decoration:none;">
-<div id="bghov-salads">  
-  <div id="overlay-salads">
-    <span id="plus">Salads</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>      
-    
-    
-<a href="http://www.crumyumapp.com/web/start/breakfast/" style="text-decoration:none;">
-<div id="bghov-breakfast">  
-  <div id="overlay-breakfast">
-    <span id="plus">Breakfast</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>     
-
-<a href="http://www.crumyumapp.com/web/start/relaxing/" style="text-decoration:none;">
-<div id="bghov-relaxing">  
-  <div id="overlay-relaxing">
-    <span id="plus">Relaxing</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>       
-    
-<a href="http://www.crumyumapp.com/web/start/sandwiches/" style="text-decoration:none;">
-<div id="bghov-sandwiches">  
-  <div id="overlay-sandwiches">
-    <span id="plus">Sandwiches</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a> 
-      
-   
-<a href="http://www.crumyumapp.com/web/start/seafood/" style="text-decoration:none;">
-<div id="bghov-seafood">  
-  <div id="overlay-seafood">
-    <span id="plus">Seafood</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a> 
-          
-  
-  
-         
-    
-<!--                               break                               -->      
-        
-    
-<a href="http://www.crumyumapp.com/web/start/pizza/" style="text-decoration:none;">
-<div id="bghov-pizza">  
-  <div id="overlay-pizza">
-    <span id="plus">Pizzas</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>   
-    
- <a href="http://www.crumyumapp.com/web/start/mediterranean/" style="text-decoration:none;">
-<div id="bghov-mediterranean">  
-  <div id="overlay-mediterranean">
-    <span id="plus">Mediterranean</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>       
-    
-<a href="http://www.crumyumapp.com/web/start/drinks/" style="text-decoration:none;">
-<div id="bghov-drinks">  
-  <div id="overlay-drinks">
-    <span id="plus">Drinks</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>     
-    
-    
-<a href="http://www.crumyumapp.com/web/start/cake/" style="text-decoration:none;">
-<div id="bghov-cakes">  
-  <div id="overlay-cakes">
-    <span id="plus">Cake</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a>  
-    
-<a href="http://www.crumyumapp.com/web/start/party/" style="text-decoration:none;">
-<div id="bghov-party">  
-  <div id="overlay-party">
-    <span id="plus">Party Dishes</span>
-  </div> <!-- overlay end--->
-</div>  <!---bghov-->
-</a> 
-    
-    
-     </div><!--.bghov-bgs-->
-    <div class="main2">
-     <br><br>
-     
-            
-     <center>
-     what are you in the mood for?
-     </center>
-            </div><!--main2-->
-<div class="footer2">
-<center>
-<a href="http://www.crumyumapp.com/" class="random">Home</a>&nbsp;&nbsp;     
-<a href="" class="random">Give Us A Category</a>&nbsp;&nbsp;     
-
-    
-<br>
-    <p> 2015 crumyum</p> &nbsp;&nbsp; <p>Ottawa, ON, Canada &nbsp;
-    <img src="images/site/mapleleaf.png" style="height:20px;"> &nbsp; 
-    <img src="images/site/heart.png" style="height:20px;"> &nbsp;  </p>
-   <p> Mmmmmmm.....  </p>
-    
-<br>    
-</center>     
-</div>             
-            
-   
-</div><!--main-->
-            
-
-            
-            
-     
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-			<script src="js/jquery.min.js"></script>
-			<script src="js/jquery.scrollex.min.js"></script>
-			<script src="js/jquery.scrolly.min.js"></script>
-			<script src="js/skel.min.js"></script>
-			<script src="js/init.js"></script>
-      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        
-   
-  
+                        <div id="menu">
+                            <ul>
+                                <li><a href="http://www.crumyumapp.com">Home</a></li>
+                                <li><a href="http://www.crumyumapp.com/web#categories">Categories</a></li>
+                                <li><a href="#howwecanhelp">Random Dish</a></li>
+                                <li><a href="#ourportfolio">Contact</a></li>
+                                <div class="menubt">
+                                    <center style="color:white;text-shadow:2px 2px #222;font-size:16pt;"> Made in Ottawa </center>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header> <img class="cornerlogo" src="images/site/logo3.png">
+        <div class="themeimg">
+            <center>
+                <div class="fixtext">
+                    <h1>what are you in the mood for?</h1>
+                    <br>
+                    <h2 class="basic">What are you in the mood for?</h2> </div>
+            </center>
         </div>
-        
+        <div class="main">
+            <div class="spacer">
+                <div class="spacer">
+                    <center> </center>
+                </div>
+                <!--spacer-->
+            </div>
+            <!--spacer-->
+            <br>
+            <center>Select a category to start, or <a href="" class="random">jump to a random meal</a>! <br>
+            <br>The web version is currently offline, but <a href="http://www.crumyumapp.com/cdemo/" class="random">check out our app demo</a>.</center>
+            <br>
+            <br>
+            <div class="bghov-bgs">
+                <h1 id="categories"></h1>
+                <a href="http://www.crumyumapp.com/web/start/healthy-choices/" style="text-decoration:none;">
+                    <div id="bghov-healthy">
+                        <div id="overlay-healthy"> <span id="plus">Healthy</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/late-night/" style="text-decoration:none;">
+                    <div id="bghov-latenight">
+                        <div id="overlay-latenight"> <span id="plus">Late Night</span> </div>
+                        <!--overlay--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/cultural/" style="text-decoration:none;">
+                    <div id="bghov-cultural">
+                        <div id="overlay-cultural"> <span id="plus">Cultural</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/ice-cream/" style="text-decoration:none;">
+                    <div id="bghov-sweets">
+                        <div id="overlay-sweets"> <span id="plus">Ice Cream</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/with-prep/" style="text-decoration:none;">
+                    <div id="bghov-wprep">
+                        <div id="overlay-wprep"> <span id="plus">With Prep</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <!--                               break                               -->
+                <a href="http://www.crumyumapp.com/web/start/fv/" style="text-decoration:none;">
+                    <div id="bghov-fruit-veggie">
+                        <div id="overlay-fruit-veggie"> <span id="plus">Fruit &amp; Veggie</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/pasta/" style="text-decoration:none;">
+                    <div id="bghov-noodles">
+                        <div id="overlay-noodles"> <span id="plus">Pasta</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/asian-dishes/" style="text-decoration:none;">
+                    <div id="bghov-asian">
+                        <div id="overlay-asian"> <span id="plus">Asian DIshes</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/burgers/" style="text-decoration:none;">
+                    <div id="bghov-burgers">
+                        <div id="overlay-burgers"> <span id="plus">Burgers</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/cookies/" style="text-decoration:none;">
+                    <div id="bghov-cookies">
+                        <div id="overlay-cookies"> <span id="plus">Cookies</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <!--                               break                               -->
+                <a href="http://www.crumyumapp.com/web/start/beef/" style="text-decoration:none;">
+                    <div id="bghov-beef">
+                        <div id="overlay-beef"> <span id="plus">Beef</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/chicken/" style="text-decoration:none;">
+                    <div id="bghov-chicken">
+                        <div id="overlay-chicken"> <span id="plus">Chicken</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/soup/" style="text-decoration:none;">
+                    <div id="bghov-soup">
+                        <div id="overlay-soup"> <span id="plus">Soup</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/warm-beverages/" style="text-decoration:none;">
+                    <div id="bghov-warmbv">
+                        <div id="overlay-warmbv"> <span id="plus" style="font-size:23pt;">Warm</span> <span id="plus" style="font-size:23pt;">Beverages </span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/dessert/" style="text-decoration:none;">
+                    <div id="bghov-dessert">
+                        <div id="overlay-dessert"> <span id="plus">Dessert</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <!--                               break                               -->
+                <a href="http://www.crumyumapp.com/web/start/salads/" style="text-decoration:none;">
+                    <div id="bghov-salads">
+                        <div id="overlay-salads"> <span id="plus">Salads</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/breakfast/" style="text-decoration:none;">
+                    <div id="bghov-breakfast">
+                        <div id="overlay-breakfast"> <span id="plus">Breakfast</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/relaxing/" style="text-decoration:none;">
+                    <div id="bghov-relaxing">
+                        <div id="overlay-relaxing"> <span id="plus">Relaxing</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/sandwiches/" style="text-decoration:none;">
+                    <div id="bghov-sandwiches">
+                        <div id="overlay-sandwiches"> <span id="plus">Sandwiches</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/seafood/" style="text-decoration:none;">
+                    <div id="bghov-seafood">
+                        <div id="overlay-seafood"> <span id="plus">Seafood</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <!--                               break                               -->
+                <a href="http://www.crumyumapp.com/web/start/pizza/" style="text-decoration:none;">
+                    <div id="bghov-pizza">
+                        <div id="overlay-pizza"> <span id="plus">Pizzas</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/mediterranean/" style="text-decoration:none;">
+                    <div id="bghov-mediterranean">
+                        <div id="overlay-mediterranean"> <span id="plus">Mediterranean</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/drinks/" style="text-decoration:none;">
+                    <div id="bghov-drinks">
+                        <div id="overlay-drinks"> <span id="plus">Drinks</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/cake/" style="text-decoration:none;">
+                    <div id="bghov-cakes">
+                        <div id="overlay-cakes"> <span id="plus">Cake</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+                <a href="http://www.crumyumapp.com/web/start/party/" style="text-decoration:none;">
+                    <div id="bghov-party">
+                        <div id="overlay-party"> <span id="plus">Party Dishes</span> </div>
+                        <!-- overlay end--->
+                    </div>
+                    <!---bghov-->
+                </a>
+            </div>
+            <!--.bghov-bgs-->
+            <div class="main2">
+                <br>
+                <br>
+                <center> what are you in the mood for? </center>
+            </div>
+            <!--main2-->
+            <div class="footer2">
+                <center> <a href="http://www.crumyumapp.com/" class="random">Home</a>&nbsp;&nbsp; <a href="" class="random">Give Us A Category</a>&nbsp;&nbsp;
+                    <br>
+                    <p> 2015 crumyum</p> &nbsp;&nbsp;
+                    <p>Ottawa, ON, Canada &nbsp; <img src="images/site/mapleleaf.png" style="height:20px;"> &nbsp; <img src="images/site/heart.png" style="height:20px;"> &nbsp; </p>
+                    <p> Mmmmmmm..... </p>
+                    <br> </center>
+            </div>
+        </div>
+        <!--main-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.scrollex.min.js"></script>
+        <script src="js/jquery.scrolly.min.js"></script>
+        <script src="js/skel.min.js"></script>
+        <script src="js/init.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    </div>
+</body>
 
-    </body>
-    </html> 
-   
+</html>

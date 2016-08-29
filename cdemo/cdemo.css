@@ -1,0 +1,10 @@
+.device-preview {
+    margin: 20px auto auto;
+    background: url(http://www.jonathanbelok.com/zxpc-pho/sprite.png) no-repeat;
+    background-size: 100%
+}
+
+div.preview-ios .device-preview {
+    width: 467px;
+    height: 800px
+}
