@@ -8,3 +8,41 @@ div.preview-ios .device-preview {
     width: 467px;
     height: 800px
 }
+
+a.goback {
+    padding: 15px 50px;
+    color: #fff;
+    background-color: #3ea2b4;
+    border: 2px solid #3ea2b4;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    top: 40px;
+    position: relative
+}
+
+a.goback:hover {
+    top: 35px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease
+}
+
+a.goback:active {
+    top: 50px
+}
+
+html,
+body {
+    height: 1200px;
+    overflow-x: hidden;
+}
+
+a.back {
+    position: fixed;
+    color: #3ea2b4;
+    top: 20px;
+    right: 65px;
+    text-decoration: none;
+}
