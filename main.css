@@ -27,6 +27,7 @@ body {
     font-weight: 300;
     height: 500px;
 }
+}
 
 .frontSCBG {
     position: fixed;
@@ -95,6 +96,7 @@ a.tryit:active {
 .about2 {
     background: white;
     background: url(images/site/foodbg3.png);
+    background: #eaeaea !important;
     background-size: 200px;
     height: auto;
     padding: 0 auto;
@@ -103,9 +105,38 @@ a.tryit:active {
     position: relative;
     top: 700px;
     color: #2D3F50;
+    color: #5c5c5c;
     letter-spacing: 2px;
     padding-bottom: 80px;
     width: 100%;
+}
+
+a.goback {
+    padding: 15px 50px;
+    color: #fff;
+    background-color: #3ea2b4;
+    border: 2px solid #3ea2b4;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    top: 40px;
+    position: relative;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+a.goback:hover {
+    background-color: #44b7cc;
+    border: 2px solid #44b7cc;
+    top: 35px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease
+}
+
+a.goback:active {
+    top: 50px
 }
 
 .madein {
@@ -157,14 +188,14 @@ a.whodis {
     text-shadow: none;
     letter-spacing: 4px;
     cursor: pointer;
-    position:relative;
-    top:0px;
-    margin-left:10px;
-    margin-right:10px;
+    position: relative;
+    top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
-    -o-transition: all .3s ease; 
+    -o-transition: all .3s ease;
 }
 
 a.whodis:hover {
@@ -191,7 +222,7 @@ a.whodis2,
 a.whodis3 {
     display: none;
 }
- 
+
 a.whodispink {
     background-color: rgba(255, 255, 255, 1);
     color: #222;
