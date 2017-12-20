@@ -1,1 +1,1 @@
-<a href="http://www.crumyumapp.com" target="_blank">View Project</a>
+<a href="http://jonathanbe.github.io>View Project</a>
